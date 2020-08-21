@@ -7,13 +7,12 @@
         <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
     </head>
 
-    <body onload="set_up()">
+    <body onload="draw_screen()">
         <div id="arm_scene">
             <h2 id="title">2-Joint Arm</h2>
-            <canvas id="canvas" width="1000vw" height="500vh"></canvas>
+            <canvas id="canvas" width="1140vw" height="500vh"></canvas>
             <div id="arm_images">
-                <img id="claw" src="static/images/claw.jpg" onerror="imgError(this);"/>
-                <img id="base" src="static/images/base.jpg" onerror="imgError(this);"/>
+                <img id="base" src="static/images/base.jpg" onerror="img_error(this);"/>
             </div>
             <button id="reset_button" onclick="reset();" type="button">Reset Arm!</button>
         </div>
