@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>2-Joint Arm</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+        <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    </head>
+
+    <body onload="set_up()">
+        <div id="arm_scene">
+            <h2 id="title">2-Joint Arm</h2>
+            <canvas id="canvas" width="1000vw" height="500vh"></canvas>
+            <div id="arm_images">
+                <img id="claw" src="static/images/claw.jpg" onerror="imgError(this);"/>
+                <img id="base" src="static/images/base.jpg" onerror="imgError(this);"/>
+            </div>
+            <button id="reset_button" onclick="reset();" type="button">Reset Arm!</button>
+        </div>
+        <script src="{{ url_for('static', filename='arm_viewer.js') }}"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,45 @@
+#arm_scene {
+    /*position  : absolute;*/
+    /*right      : 50%;*/
+    /*top       : 0px;*/
+    /*right : 0px;*/
+    /*bottom: 0px;*/
+    border    : 5px solid #000000;
+}
+
+#title {
+    position  : absolute;
+    text-align: center;
+    left     : 45vw;
+    top   : 5vh;
+}
+
+#base {
+    position : absolute;
+    width    : 20%;
+    height   : auto;
+}
+
+#bicep {
+    position : absolute;
+    width    : 6%;
+    height   : auto;
+}
+
+#forearm {
+    position : absolute;
+    width    : 20%;
+    height   : auto;
+}
+
+#claw {
+    position : absolute;
+    width    : 8%;
+    height   : auto;
+}
+
+#reset_button {
+    position  : absolute;
+    left     : 20px;
+    top   : 20px;
+}
