@@ -4,7 +4,7 @@ Uses inverse kinematics to bend arm's joints appropriately to reach cursor. Hard
 #### Setup
 % cd TwoJointBot  
 % pipenv --three install  
-% pipenv run python arm_app.py
+% pipenv run python arm_app.py  
 Go to url specified by output. Will look something like http://127.0.0.1:5000/
 
 #### Acknowledgements
